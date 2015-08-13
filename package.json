@@ -1,6 +1,6 @@
 {
   "name": "path-format",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Node.js path.format() polyfill",
   "main": "index.js",
   "repository": {
