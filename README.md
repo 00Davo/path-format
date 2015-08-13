@@ -1,6 +1,6 @@
 # path-format
 
-> Node.js [`path.format(pathFormat)`](https://nodejs.org/api/path.html#path_path_format_pathobject) polyfill.
+> Node.js [`path.format(pathObject)`](https://nodejs.org/api/path.html#path_path_format_pathobject) polyfill.
 
 ## Install
 
@@ -25,9 +25,9 @@ pathFormat({
 
 ## API
 
-See [`path.format(pathObject)`](https://nodejs.org/api/path.html#path_path_format_pathobject) docs.
-
 ### pathFormat(path)
+
+See [`path.format(pathObject)`](https://nodejs.org/api/path.html#path_path_format_pathobject) docs.
 
 ### pathFormat.posix(path)
 
