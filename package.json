@@ -1,7 +1,7 @@
 {
   "name": "path-format",
   "version": "1.0.0",
-  "description": "Node.js path.format() ponyfill",
+  "description": "Node.js path.format() polyfill",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -17,7 +17,6 @@
     "util",
     "utils",
     "core",
-    "ponyfill",
     "polyfill",
     "shim"
   ],

@@ -1,8 +1,6 @@
 # path-format
 
-> Node.js [`path.format(pathFormat)`](https://nodejs.org/api/path.html#path_path_format_pathobject) ponyfill.
-
-> Ponyfill: A polyfill that doesn't overwrite the native method
+> Node.js [`path.format(pathFormat)`](https://nodejs.org/api/path.html#path_path_format_pathobject) polyfill.
 
 ## Install
 
