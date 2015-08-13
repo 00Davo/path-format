@@ -1,0 +1,26 @@
+{
+  "name": "path-format",
+  "version": "1.0.0",
+  "description": "Node.js path.format() ponyfill",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/00Davo/path-format.git"
+  },
+  "keywords": [
+    "path",
+    "paths",
+    "file",
+    "dir",
+    "format",
+    "built-in",
+    "util",
+    "utils",
+    "core",
+    "ponyfill",
+    "polyfill",
+    "shim"
+  ],
+  "author": "",
+  "license": "MIT"
+}
