@@ -1,12 +1,13 @@
 'use strict';
 
-var _ = require('lodash');
+var isObject = require('is-object');
+var isString = require('is-string');
 
 var isWindows = process.platform === 'win32';
 var win32 = {sep: '\\'}, posix = {sep: '/'};
 
 var win32Format = function(pathObject) {
-  if (!_.isObject(pathObject)) {
+  if (!isObject(pathObject)) {
     throw new TypeError(
         "Parameter 'pathObject' must be an object, not " + typeof pathObject
     );
@@ -14,7 +15,7 @@ var win32Format = function(pathObject) {
 
   var root = pathObject.root || '';
 
-  if (!_.isString(root)) {
+  if (!isString(root)) {
     throw new TypeError(
         "'pathObject.root' must be a string or undefined, not " +
         typeof pathObject.root
@@ -33,7 +34,7 @@ var win32Format = function(pathObject) {
 };
 
 var posixFormat = function(pathObject) {
-  if (!_.isObject(pathObject)) {
+  if (!isObject(pathObject)) {
     throw new TypeError(
         "Parameter 'pathObject' must be an object, not " + typeof pathObject
     );
@@ -41,7 +42,7 @@ var posixFormat = function(pathObject) {
 
   var root = pathObject.root || '';
 
-  if (!_.isString(root)) {
+  if (!isString(root)) {
     throw new TypeError(
         "'pathObject.root' must be a string or undefined, not " +
         typeof pathObject.root
